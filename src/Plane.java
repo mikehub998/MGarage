@@ -11,5 +11,6 @@ public class Plane extends Vehicle {
         this.missiles = missiles;
         this.afterburner = afterburner;
         this.jetProp = jetProp;
+
     }
 }

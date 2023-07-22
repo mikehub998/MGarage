@@ -1,8 +1,9 @@
 //Create a vehicle class divide into three subclasses
 public class Main {
     public static void main(String[] args) {
-        Menu.run();
-        Menu.menu();
+        Menu.menuRun();
+
+
 //        Garage garage = new Garage();
 //        Car car = new Car(4,3, "red", false, true );
 //        Bike bike = new Bike(3, 4, "pink", true, 2);

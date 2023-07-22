@@ -27,10 +27,10 @@ import java.util.Scanner;
         public static Boolean returnboolean() {
 
             if (scan.nextLine().trim().equals("yes")) {
-                System.out.println("you have a boot");
+                System.out.println("Excellent!!!");
                 return true;
             } else {
-                System.out.println("no boot then");
+                System.out.println("Your loss!!");
             return false;
 
 

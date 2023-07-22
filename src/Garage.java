@@ -9,7 +9,7 @@ public class Garage {
 
 
 
-    public static void addToList(Vehicle auto) {
+    public static void addVehicleToGarage(Vehicle auto) {
 
 
         listOfVehicles.add(auto);
@@ -17,17 +17,17 @@ public class Garage {
 
     }
 
-    public static void removeFromList(Vehicle auto) {
+    public static void removeVehicleFromGarage(Vehicle auto) {
         listOfVehicles.remove(auto);
         System.out.println(String.format("Removed individual vehicle %s from list", auto));
     }
 
-    public static void emptyList(Vehicle auto) {
+    public static void emptyGarage(Vehicle auto) {
         listOfVehicles.clear();
         System.out.println(String.format("Empty vehicles %s from list", auto));
 
     }
-    public static void removeByType(Vehicle auto) {
+    public static void removeVehicleByType(Vehicle auto) {
 
         System.out.println("Which vehicle type needs removing?");
         listOfVehicles.remove(auto);

@@ -15,7 +15,11 @@ public class Vehicle {
         this.colour = colour;
         this.bill = bill;
 
-        Garage.addToList(this);
+        Garage.addVehicleToGarage(this);
+        Garage.removeVehicleFromGarage(this);
+        Garage.removeVehicleByType(this);
+        Garage.emptyGarage(this);
+
 
 
 
