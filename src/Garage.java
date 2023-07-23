@@ -7,11 +7,14 @@ import java.util.List;
 public class Garage {
     static List<Vehicle> listOfVehicles = new ArrayList<>();
 
+    public int numberOfVehicles() {
+        return listOfVehicles.size();
+
+    }
+
 
 
     public static void addVehicleToGarage(Vehicle auto) {
-
-
         listOfVehicles.add(auto);
         System.out.println(String.format("Added vehicle %s to list", auto));
 
@@ -28,7 +31,6 @@ public class Garage {
 
     }
     public static void removeVehicleByType(Vehicle auto) {
-
         System.out.println("Which vehicle type needs removing?");
         listOfVehicles.remove(auto);
         System.out.println(String.format("Removed type of vehicle %s from list", auto));

@@ -1,4 +1,4 @@
-public class Vehicle {
+public abstract class Vehicle {
     public int seat;
 
     public float engine;
@@ -16,13 +16,9 @@ public class Vehicle {
         this.bill = bill;
 
         Garage.addVehicleToGarage(this);
-        Garage.removeVehicleFromGarage(this);
-        Garage.removeVehicleByType(this);
-        Garage.emptyGarage(this);
-
-
-
-
+//        Garage.removeVehicleFromGarage(this);
+//        Garage.removeVehicleByType(this);
+//        Garage.emptyGarage(this);
 
     }
 }

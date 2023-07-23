@@ -1,7 +1,7 @@
 //Create a vehicle class divide into three subclasses
 public class Main {
     public static void main(String[] args) {
-        Menu.menuRun();
+        Menu.run();
 
 
 //        Garage garage = new Garage();

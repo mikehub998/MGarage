@@ -6,7 +6,7 @@ public class Car extends Vehicle {
 
 
 
-    public Car(int seat, float engine, String colour, boolean boot, boolean wipers) {
+    public Car(int seat, float engine, String colour, int bill, boolean boot, boolean wipers) {
         super(seat, engine, colour, 6000);
         this.boot = boot;
         this.wipers = wipers;

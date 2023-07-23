@@ -6,7 +6,7 @@ public class Plane extends Vehicle {
 
     public String jetProp;
 
-    public Plane(int seat, float engine, String colour, int missiles, boolean afterburner, String jetProp) {
+    public Plane(int seat, float engine, String colour, int bill, int missiles, boolean afterburner, String jetProp) {
         super(seat, engine, colour, 4000000);
         this.missiles = missiles;
         this.afterburner = afterburner;
